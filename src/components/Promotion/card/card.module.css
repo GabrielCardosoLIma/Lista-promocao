@@ -1,0 +1,80 @@
+.promotionCard {
+    border-radius: 8px;
+    border: 1px solid #C3C3C3;
+    box-shadow: 0 2px 7px 0 rgba(0,0,0, 0.15);
+    display: flex;
+    padding: 15px;
+    align-items: flex-start;
+  }
+ 
+  .promotionCardInfo{
+      
+  }
+  
+  .promotionCardImage {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.promotionCardInfo{
+    flex-grow: 1;
+}
+.promotionCardTitle{
+    font-size:16px;
+    color: #2c3e50;
+}
+
+.promotionCardPrice{
+    font-size:26px;
+    font-weight: 700;
+    color: #3498DB;
+  }
+  
+  .promotionCardFooter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .promotionCardComment {
+    color: #95A5A6;
+    font-weight: 700;
+    /* ***** */
+    max-width: 375px;
+    /* white-space: nowrap; */
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.promotionCardCommentsCount{
+    margin-left: auto;
+    margin-right: 20px;
+    color:#3498db;
+    /* ***** */
+    background-color: unset;
+    border: unset;
+    white-space: nowrap;
+
+}
+
+.promotionCardLink {
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    color: #3498DB;
+    text-decoration: none;
+    padding: 8px 10px;
+    white-space: nowrap;
+}
+
+/* .promotionCardButton {
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    color:#3498db;
+    text-decoration: none;
+    padding: 8px 10px;
+    margin-left: 10px;
+} */
+
+.promotionCardButton {
+    margin-left: 10px;
+}
